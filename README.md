@@ -1,6 +1,6 @@
 <h1>ExpNo 9: Solve Wumpus World Problem using Python demonstrating Inferences from Propositional Logic</h1> 
-<h3>Name: Vamsi Krishna G                      </h3>
-<h3>Register Number: 212223220120             </h3>
+<h3>Name:VIDHYADHARAN R </h3>
+<h3>Register Number: 212222110053 </h3>
 <H3>Aim:</H3>
 <p>
     To solve  Wumpus World Problem using Python demonstrating Inferences from Propositional Logic
@@ -20,9 +20,18 @@ The figure below shows a Wumpus world containing one pit and one Wumpus. There i
 This is a python program that uses propositional logic sentences to check which rooms are safe. 
 
 It is assumed that there will always be a safe path that the agent can take to exit the Wumpus world. The logical agent can take four actions: Up, Down, Left and Right. These actions help the agent move from one room to an adjacent room. The agent can perceive two things: Breeze and Stench.
-# Program
+</p>
 
+<hr>
+<h1>Sample Input and Output:</h1>
+<hr>
+
+![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/8696111a-a4a7-47cb-ba4b-43a4ef88573f)
+![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/4be5bf06-79fa-4fa0-9334-38a33f06060b)
+
+## Program:
 ```
+
 wumpus=[["Save","Breeze","PIT","Breeze"],
         ["Smell","Save","Breeze","Save"],
         ["WUMPUS","GOLD","PIT","Breeze"],
@@ -135,17 +144,8 @@ while(player):
         break
 
 ```
+## Output:
+![image](https://github.com/user-attachments/assets/150d3cca-4b19-43a6-bad3-cb6847c89a0d)
 
-<hr>
-<h1>Sample Input and Output:</h1>
-<hr>
-
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/8696111a-a4a7-47cb-ba4b-43a4ef88573f)
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/4be5bf06-79fa-4fa0-9334-38a33f06060b)
-# Output
-![378270417-731ddb10-a973-449d-b04d-8207fd2eec34](https://github.com/user-attachments/assets/94039f98-4950-4f7f-a43f-249629c8bae5)
-
-# Result:
+## Result:
 Therefore, Wumpus World Problem using Python demonstrating Inferences from Propositional Logic solved successfully.
-
-
